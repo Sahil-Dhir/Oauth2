@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="style/css">
+        span{
+            font-family: 'Dancing Script', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex justify-center item-center">
+        <div class="mt-36  font-bold bg-gray-300 rounded-md w-96 h-96">
+            <h1 class="flex text-4xl justify-center">Nodejs</h1>
+            <div class="flex justify-center items-center mt-12 ">
+                <a href="/auth/github" class="bg-gray-500 text-white p-4 rounded-md shadow-md transition-all duration-300 hover:bg-gray-400 hover:text-white flex items-center">
+                  <img src="/assets/images/github-logo-5F384D0265-seeklogo.com.png" alt="Github logo" class="mr-4 h-12 w-12">
+                  <span class="text-2xl font-bold">Login with Github</span>
+                </a>
+              </div>
+              <h1 class="mb-6 mt-6 justify-center item-center ml-44">or</h1>
+              <div class="flex justify-center items-center mt-12 ">
+                <a href="/auth/google" class="bg-gray-300 p-4 rounded-md shadow-md transition-all duration-300 hover:bg-black hover:text-white flex items-center">
+                  <img src="/assets/images/google.png" alt="Github logo" class="mr-4 h-12 w-12">
+                  <span class="text-2xl font-bold">Login with Google</span>
+                </a>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
