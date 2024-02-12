@@ -1,2 +1,2 @@
 node_modules
-.env
+.env.GITHUB_SECRET
